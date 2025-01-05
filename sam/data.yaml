@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Building', 'Fence', 'House', 'Pole', 'Street Sign', 'Tree']
+
+roboflow:
+  workspace: drone-obstacle-detection
+  project: drone-object-detection-yhpn6
+  version: 61
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drone-obstacle-detection/drone-object-detection-yhpn6/dataset/61
